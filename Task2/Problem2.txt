@@ -1,0 +1,18 @@
+"This program is to find the number of a fibonacci series for given nth position"
+
+start
+ Declare integer a,b,c,i,x
+ assign a = 0
+ assign b = 1
+ assign c = 1
+ print "Enter the position "
+ Input x
+ for loop i from 1 to 45
+   if i is equal to x then
+      print The Fibonacci number for the given position " & x & " is " &c
+   end 
+   assign c = a + b
+   assign a = b
+   assign b = c
+ end loop
+end
