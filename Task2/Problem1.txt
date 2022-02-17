@@ -1,0 +1,17 @@
+This program will allow you the user to to check whether a given number is divisible by 3 
+
+begin
+    Declare Integer a, x
+    Declare Real b
+    
+    print "Enter the number to check if the number is divisble by 3"
+    Input x
+    Assign b = x/3
+    Assign a = x/3
+    If a is equal to b
+       Display True
+    else
+       Display False
+    End
+    
+end
